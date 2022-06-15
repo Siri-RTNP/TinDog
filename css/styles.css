@@ -1,0 +1,139 @@
+/* HTML */
+Body{
+  text-align: center;
+}
+
+h1, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* container */
+
+.container-fluid {
+  padding:7% 15%;
+}
+
+/* Section */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color:white;
+}
+
+/* title section*/
+
+#title .container-fluid {
+  padding:3% 7% 15%;
+  text-align: left;
+}
+
+.title-heading-text{
+  font-size: 3.2rem;
+  margin-top: 15%;
+  color: white;
+}
+
+.DogPhone{
+  /* width: 60%; */
+  transform: rotate(20deg);
+  margin: 80px auto;
+  position: absolute;
+}
+
+@media (max-width: 1028px){
+  #title {
+    text-align: center;
+  }
+  .DogPhone{
+    /* width: 60%; */
+    transform: rotate(0);
+    margin: 80px auto;
+    position: static;
+  }
+}
+
+.Download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+.navbar-biggersize{
+  font-size: 1.8rem;
+}
+
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.feature-icon{
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.feature-box{
+  padding: 8%;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+#press{
+  padding-bottom:3%;
+  background-color: #ef8172;
+}
+
+.press-image{
+  margin:20px 20px 50px;
+  width: 12%;
+}
+
+/* testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+/* pricing */
+
+.Pricing-col{
+  padding: 3%;
+}
+
+.pricing-title{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* footer section */
+
+.footer-icon{
+  padding:2% 1%;
+}
